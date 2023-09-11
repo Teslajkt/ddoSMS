@@ -1,3 +1,4 @@
+
 import sys          # Untuk fungsi pada terminal, seperti autoketik() dan exit()
 import subprocess   # Installing python module within code / script (Tanpa requirements.txt)
 
@@ -317,7 +318,7 @@ def start(nomor,x): # Def Untuk Start Tools
         jam(nomor)
     else:
         print("")
-        autoketik("--reboot wait 20 second--")
+        autoketik("--reboot wait 10 second--")
         time.sleep(10) # Tunda 20 detik
         os.system("cls") # Clear Terminal
         autoketik(f"{merah}Mengulang Spam ke Nomor : {nomor}.....{hijau}") # Flag dimana program berjalan
@@ -325,7 +326,7 @@ def start(nomor,x): # Def Untuk Start Tools
         
 def main():
     os.system("cls") # Clear Terminal agar CMD berwarna
-    autoketik(f"Selamat datang di {merah}MySpamBot")
+    autoketik(f"welcome to {merah}Mobile legends")
     print(f"""{kuning}Author      : {hijau}trswrbs
 {kuning}Github      : {merah}github.com/Teslajkt
 {kuning}Instagram   : {biru}instagram.com/warbos22official""")
